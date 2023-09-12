@@ -1,0 +1,10 @@
+function funcEnqueue(arr, item){
+    let arr2=[];
+    for(let i=0; i<item.length; i++){
+        arr2[i] = arr.push(item)
+       console.log(arr2[i])
+    }
+}
+const item=[3, 4 ,5, 7, 4, 9];
+const arr=[];
+funcEnqueue(arr, item)
